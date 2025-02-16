@@ -2,6 +2,7 @@
   "name": "githubuseractivity",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,9 @@
     "url": "https://github.com/erybie222/GitHub-User-Activity/issues"
   },
   "homepage": "https://github.com/erybie222/GitHub-User-Activity#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "octokit": "^4.1.2"
+  }
 }
